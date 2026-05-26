@@ -1,0 +1,49 @@
+/* ─── Global reset and base styles ────────────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1e293b;
+  background: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #00a2d3;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: #0082ab;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+textarea, input {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#root {
+  min-height: 100dvh;
+}
